@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         }
         registerReceiver(broadcastReceiver,new IntentFilter("location_update"));
     }
-
+//Test Radenko
     @Override
     protected void onDestroy() {
         super.onDestroy();
